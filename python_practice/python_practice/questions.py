@@ -74,19 +74,26 @@
 '''wap to give 10% off only who is purchasing in creadit card and min 3 product shpuld purchase and each product price should be more than 500'''
 
 
-payment_mode=['cash','credit_card','debit card']
-payment_option=input("Enter the mode of payemnt: ")
+# n = int(input("Enter number of products: "))
 
-if payment_mode==payment_mode[0]:
-    print('')
+# if n >= 3:
+#     p1 = float(input("Enter price of product 1: "))
+#     p2 = float(input("Enter price of product 2: "))
+#     p3 = float(input("Enter price of product 3: "))
 
-elif payment_mode==payment_mode[1]:
-    
-    print('')
+#     if p1 > 500:
+#         if p2 > 500:
+#             if p3 > 500:
+#                 payment = input("Enter payment method: ")
 
-elif payment_mode==payment_mode[2]:
-    print('')
+#                 if payment == "credit card":
+#                     total = p1 + p2 + p3
+#                     discount = total * 10 / 100
+#                     final = total - discount
 
+#                     print("Total =", total)
+#                     print("Discount =", discount)
+#                     print("Final Amount =", final)
 
 
 
