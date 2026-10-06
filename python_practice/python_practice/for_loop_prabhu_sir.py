@@ -139,3 +139,7 @@
 # for i in y:
 #     if i%2==0:
 #       print(i)
+
+''' to pass charchter and in value part store the #ascii value'''
+
+s='hello'
