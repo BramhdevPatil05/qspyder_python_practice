@@ -284,13 +284,13 @@ display the half of the string.'''
 
 '''          *********doubt*********        '''
 
-a = input("Enter a string: ")
+# a = input("Enter a string: ")
 
-if not a[0].isalnum():
-    print("Middle character:", a[len(a) // 2])
-else:
-    a = a[::-1]
-    print("Half of the string:", a[:len(a)//2])
+# if not a[0].isalnum():
+#     print("Middle character:", a[len(a) // 2])
+# else:
+#     a = a[::-1]
+#     print("Half of the string:", a[:len(a)//2])
 
 
 
@@ -472,16 +472,39 @@ perform the bitwise not for last value and those result values are stored
 in same positions in given list or else, to perform length of the collection power by 2 and display value. '''
 
 
+# a=eval(input("Enter a list: "))
+
+# if type(a) == list and type(a[0]) == int and type(a[-1]) == int:
+#     print('condition satisfied:', a[0]/3)
+#     print('bitwise not for last value: ',~a[-1])
+
+
+# else:
+#     print('length of the collection power by 2: ',len(a)**2)
+
 
 
 ''' 36 WAP to check whether a given value is a string or not and 
 length of the value should be more than 7, if condition is satisfied to append the 
 new string in the middle of the given string or else to perform the replications with 3 and display the result. '''
 
+# b='gayatri bramhdev patil'
+# a=input('Enter an string: ')
 
+# if type(b)==str and len(b)>7 :
+#     a=b[:len(b)//2] + a + b[len(b)//2:]   # here its like reverse from m and afte the given input print forward from m
+#     print(a)
+
+# else:
+#     print('replication :', b*3)
+    
+    
 ''' 37 WAP to check if the given string of first and second character should be sequence or not. 
 if the sequence prints the first, second and last two characters,
  or else the first half string is reversed and the remaining half string should be normal and display it.'''
+
+'''****** doubt *****'''
+
 
 
 
@@ -489,11 +512,32 @@ if the sequence prints the first, second and last two characters,
 '''38 WAP to check whether a given value is present inside the collection or not.
 If present, print the value or else print value is not found.'''
 
+# a=[10,20,30,40,50,'bramhdev','gayatri','patil']
+# b=eval(input('Enter an value: '))
+
+# if b in a:
+#     print('value is present:',b)
+
+# else:
+#     print('value not found')
 
 
 
 ''' 39WAP to check whether a given key is present in the dict or not. 
 if key is present: display the value or else add key and new value inside the dict.'''
+
+# a={'bramhdev':'husband', 'gayatri':'wife', 'age_husband':21 , 'age_wife': 22}
+# b=input('Enter the key: ')
+
+# if b in a:
+#     print('value:' ,a[b])
+
+# else:
+#     m = input("Enter key: ")
+#     n = input("Enter value: ")
+
+#     a[m] = n
+#     print('new dict: ',a)
 
 
 
@@ -503,85 +547,198 @@ if set, append the new value, or else eliminate the duplicate values in collecti
 final results should be set type.'''
 
 
+'''****** doubt *****'''
+
 
 
 '''41 WAP to read the age of a candidate and determine whether it is eligible for his/her own vote or not.
 it eligible print age and eligible messages or else print not eligible.'''
 
+# a= int(input("Enter the age: "))
 
+# if a >= 18:
+#     print("Age:", a)
+#     print("Eligible for voting")
+
+# else:
+#     print("Age:", a)
+#     print("Not eligible for voting")
 
 
 ''' 42 WAP to check whether a given value is even and in between 47 to 58 and not in 0 or odd. 
 if condition is True, to perform display the ascii character or else to 
  perform floor division with 5 and display it. '''
 
+# a=int(input('Enter an number: '))
 
+# if a >= 47 and a <= 58 and a % 2 == 0:
+#     print('ascii character ', chr(a))
+
+# else:
+#     print('floor divsion: ' , a//5)
+    
 
 
 ''' 43 WAP to check whether the given string is palindrome or not if it is a
- palindrome string palindrome along with the string if it is not a palindrome print not palindrome'''
+palindrome string palindrome along with the string if it is not a palindrome print not palindrome'''
 
+# a=(input('Enter an string: '))
+# if a[::-1]==a:
+#     print('it is an palindrome: ',a)
+# else:
+#     print('it is not a palindrome: ',a)
 
 
 ''' 44 WAP to check whether a given number is palindrome or not. If palindrome, display the given 
 value as a palindrome or else not a palindrome. '''
 
 
+# a = (input("Enter a number: "))
 
+# if a[::-1] == a:
+#     print("The given value is a palindrome:", a)
+# else:
+#     print("The given value is not a palindrome:", a)
 
 '''45 WAP to check length of both string collections are equal or not. 
 if both are equal print the concat the two strings and display, or else if any one of the
 collection not equal print both the collections with lengths'''
  
+
+# a=input("Enter an string: ")
+# b=input("Enter an string: ")
+
+# if len(a)==len(b):
+#     print('concatination of two strings:' ,a+b)
+
+# else:
+#     print('both strings have different lengths')
+#     print('len of a: ',len(a))
+#     print('len of b:' ,len(b))
+    
  
  
-''' 46 WAP to check whether both given values point to the same memory location or not. if it is true print the middle item of the second collection, or else if it is false print the first item and last item of the first collection along with the memory address.'''
+''' 46 WAP to check whether both given values point to the same memory location or not.
+ if it is true print the middle item of the second collection, 
+ or else if it is false print the first item and last item of the first collection along with the memory address.'''
+
+''' ***** doubt ****'''
 
 
+# a=eval(input("Enter an collection: "))
+# b=eval(input("Enter an collection: "))
 
-''' 47  WAP to check whether a given string collection is more than ten, and the first + last character of the ascii values should be divisible by 5, if condition is satisfied print first, middle, last characters ASCII values or else print the string three times.'''
+# a=b
+
+# if  id(a)==id(b):
+#     print('middle item of second:', b[len(b)//2])
+
+# else:
+#     print("First item:", a[0], "Memory address:", id(a[0]))
+#     print("Last item:", a[-1], "Memory address:", id(a[-1]))
 
 
+''' 47  WAP to check whether a given string collection is more than ten,
+ and the first + last character of the ascii values should be divisible by 5, 
+ if condition is satisfied print first, middle, last characters ASCII values or else print the string three times.'''
+
+
+# a = input('Enter a string: ')
+
+# if len(a) > 10 and (ord(a[0]) + ord(a[-1])) % 5 == 0:
+#     print('First value:', ord(a[0]))
+#     print('Middle value:', ord(a[len(a)//2]))
+#     print('Last value:', ord(a[-1]))
+# else:
+#     print(a * 3)
 
 
 ''' 48 WAP to check whether the middle of the item present in the list is string data type or not if it is string print that list or else 
 if it is not string then print that middle item. '''
 
+# a=eval(input("Enter an list: "))
 
+# if type(a[len(a)//2])==str:
+#     print(a)
+
+# else:
+#     print('middle item :' ,a[len(a)//2])
 
 ''' 49 WAP Given a string, return a new string where the first and last characters have been exchanged. '''
 
+'''*****doubt****'''
+
+# a = input("Enter a string: ")
+
+# if len(a) > 1:
+#     a = a[-1] + a[1:-1] + a[0]
+
+# print("New string:", a)
 
 
 ''' 50 Write a program to find out such numbers which are divisible by 7 but are not a multiple of 5.
 Both the conditional is satisfied and print actual value. if one condition is not satisfied
   actual number is multiply by 4 and print result'''
 
+# a=int(input('Enter an number:'))
 
+# if a%7==0 and a%5!=0:
+#     print(a)
 
+# else:
+#       print(a*4)
 
 ''' 51 WAP to check whether two values are pointing to the same memory address or not.
 If the same memory displays the address or else displays the two values addresses.'''
 
+# a = int(input("Enter first value: "))
+# b = int(input("Enter second value: "))
 
+# if a == b:
+#     print("Both values are pointing to the same memory address:", id(a))
+# else:
+#     print("Different memory addresses:")
+#     print("Address of a:", id(a))
+#     print("Address of b:", id(b))
 
 
 ''' 52 WAP to check whether a given input character is a special symbol or not if it is 
  a special symbol then print that character three times and tell print that character 5 times.'''
 
+# a=input('Enter an char:')
 
+# if not a.isalnum():
+#     print('char:',a*3)
+
+# else:
+#     print(a*5)
 
 
 ''' 53 WAP to check length of both string collections equal or not if it is equal print the
   connection of any one of the collections if it is not equal print both the collection.'''
 
+# a=input('Enter an string:')
+# b=input('Enter an string:')
 
+# if len(a)==len(b):
+#     print(a)
+
+# else:
+#     print(a)
+#     print(b)
 
 
 ''' 54 WAP To check whether both input variables point to the same memory location or not if
   it is true print the last item of the second collection, if it is false print the first item of the first collection along with the memory address.'''
 
+# a = eval(input("Enter first collection: "))
+# b = eval(input("Enter second collection: "))
 
+# if a == b:
+#     print("Last item of second collection:", b[-1])
+# else:
+#     print("First item of first collection:", a[0])
+#     print("Memory address:", id(a))
 
 
 ''' 55 WAP to print the string collection five times when the length of the string collection should be 
@@ -589,18 +746,55 @@ If the same memory displays the address or else displays the two values addresse
 to print the previous character of middle character, or else if ASCII value is odd then
  print the string three times as print that string.'''
 
+# a=input('Enter an string: ')
 
+# if len(a)>3 and a[len(a)//2] in 'aeiouAEIOU' and ord(a[0])%2==0:
+#     print('Previous character:', a[len(a)//2 - 1])
+
+
+# else:
+#     print('print that string:',a*3)
+    
+    
 
 
 ''' 56 Ravi would like to buy a new cello or red pen. The cost of the pen should be 10.
  If the pen is available in the shop, he will buy the pen. If it is not there he will come out of the shop.'''
 
+# a=['cello','red pen']
+# b=input("Enter pen:")
 
+# if b in a:
+#     print('buy the pen')
+
+# else:
+#     print('he will come out of the shop')
+    
 
 ''' 57 WAP to perform addition and subtraction operation by using list collection if the first 
 and middle data items number are even performing addition operation, or else performing subtraction.'''
+
+# a = eval(input("Enter a list: "))
+
+# if a[0] % 2 == 0 and a[len(a) // 2] % 2 == 0:
+#     print("Addition:", a[0] + a[len(a) // 2])
+# else:
+#     print("Subtraction:", a[0] - a[len(a) // 2])
+
 
 
 
 ''' 58 WAP to check whether the first item of these two lists is either integer or not. If it is an integer,
  concatenate these two lists or else print the memory address of these two lists.'''
+
+# a=eval(input('Enter an list: '))
+# b=eval(input('Enter an list: '))
+
+# if type(a[0])==int and type(b[0])==int:
+#     print(a+b)
+
+# else:
+#     print(id(a))
+#     print(id(b))
+
+
