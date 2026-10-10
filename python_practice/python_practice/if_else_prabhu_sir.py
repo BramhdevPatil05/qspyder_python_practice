@@ -282,8 +282,6 @@ If a special symbol, to extract and display the middle character or else to reve
 display the half of the string.'''
 
 
-'''          *********doubt*********        '''
-
 # a = input("Enter a string: ")
 
 # if not a[0].isalnum():
@@ -313,7 +311,6 @@ If it is vowel print VOWEL along with that character, if it is not just print CO
 ''' 24 WAP to check whether a given character is a vowel or consonant.
 if vowel, to print the next character of a given character or else print previous characters.'''  
 
-'''          *********doubt*********           '''
 
 # a=(input('Enter an charachter: '))
 
@@ -395,10 +392,6 @@ If it is a special character, print the reverse of the string except the last ch
 otherwise check if the length of the string is odd or not, and if odd extract the middle character to the end of the string.'''
 
 
-''' ******* doubt *******'''
-
-
-
 # a=(input('Enter an charachter: '))
 
 # if a[-1].isalnum():
@@ -452,7 +445,6 @@ then it displays a new string with the first and last characters switched,
 otherwise the display the 3 copies of given string. '''
 
 
-'''****** doubt *****'''
 # a = input('Enter a string: ')
 
 # if len(a) > 2:
@@ -460,10 +452,6 @@ otherwise the display the 3 copies of given string. '''
 #       print(a)
 # else:
 #       print(a * 3)
-
-
-
-
 
 
 ''' 35 WAP to check whether a given value is a list and first and last values should be integer 
@@ -481,7 +469,6 @@ in same positions in given list or else, to perform length of the collection pow
 
 # else:
 #     print('length of the collection power by 2: ',len(a)**2)
-
 
 
 ''' 36 WAP to check whether a given value is a string or not and 
@@ -503,11 +490,14 @@ new string in the middle of the given string or else to perform the replications
 if the sequence prints the first, second and last two characters,
  or else the first half string is reversed and the remaining half string should be normal and display it.'''
 
-'''****** doubt *****'''
 
+# s = input("Enter a string: ")
 
-
-
+# if len(s) >= 2 and ord(s[1]) == ord(s[0]) + 1:
+#     print(s[0], s[1], s[-2:])
+# else:
+#     mid = len(s) // 2
+#     print(s[:mid][::-1] + s[mid:])
 
 '''38 WAP to check whether a given value is present inside the collection or not.
 If present, print the value or else print value is not found.'''
@@ -547,9 +537,16 @@ if set, append the new value, or else eliminate the duplicate values in collecti
 final results should be set type.'''
 
 
-'''****** doubt *****'''
+# c = eval(input("Enter a collection: "))
 
+# if type(c) == set:
+#     n = eval(input("Enter a new value: "))
+#     c.add(n)
+# else:
+#     c = set(c)
 
+# print(c)
+# print(type(c))
 
 '''41 WAP to read the age of a candidate and determine whether it is eligible for his/her own vote or not.
 it eligible print age and eligible messages or else print not eligible.'''
@@ -622,9 +619,6 @@ collection not equal print both the collections with lengths'''
  if it is true print the middle item of the second collection, 
  or else if it is false print the first item and last item of the first collection along with the memory address.'''
 
-''' ***** doubt ****'''
-
-
 # a=eval(input("Enter an collection: "))
 # b=eval(input("Enter an collection: "))
 
@@ -665,8 +659,6 @@ if it is not string then print that middle item. '''
 #     print('middle item :' ,a[len(a)//2])
 
 ''' 49 WAP Given a string, return a new string where the first and last characters have been exchanged. '''
-
-'''*****doubt****'''
 
 # a = input("Enter a string: ")
 
