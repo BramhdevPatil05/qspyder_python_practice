@@ -249,3 +249,87 @@
 #     i+=1
 
 # print(b)
+
+
+'''Toggle string'''
+
+# a=input('Enter a String: ')
+# i=0
+# while i<len(a):
+#     i=a.swapcase()
+#     print(i)
+# i+=1
+
+# r=input('Enter a String: ')
+# i=0
+# res=''
+# while i<len(r):
+#     if 'A'<=r[i]<='Z':
+#         res=res+chr(ord(r[i])+32)
+#     elif 'a'<=r[i]<='z':
+#         res=res+chr(ord(r[i])-32)
+#     else:
+#         res=res+r[i]
+#     i+=1
+# print(res)
+
+# if u want to convert from lower to uppercase then(-32) and to convert from uppercase to lower case(+32)
+
+# st=input('Enter String: ')
+# i=0
+# out=''
+# while i<len(st):
+#     out=st[i]+out
+#     i+=1
+# print(out)
+
+'''factorial'''
+# n=int(input("Enter a number: "))
+# i=1
+# L=[]
+
+# while i<=n:
+#     if n%i==0:
+#         L=[i]+L#l.append(i)
+#     i+=1
+
+# print(L)
+
+'''sum of Perfect Number'''
+
+# a=int(input('Enter a Number: '))
+# i=1
+# res=0
+# while i<a:
+#     if a%i==0:
+#         res=res+i 
+#     i+=1
+# if a==res:
+#     print(f'{a} is a perfect Number')
+# else:
+#     print('Not a Perfect Number')
+
+
+# zensar plsql,city,trigger(sql),
+'''Prime Number'''
+# n=int(input('Enter a Number: '))
+# i=1
+# count=0
+# while i<=n:
+#     if n%i==0:
+#         count=count+1
+#     i+=1
+# if count==2:
+#     print(f'{n}--->is a Prime Number')
+# else:
+#     print(f'{n}---->is not Prime')
+
+# a=['x','y','z']
+# b=[10,20,30]
+
+# d={}
+# i=0
+# while i<len(a):
+#     d[a[i]] = b[i]###i.update({d[i]:b[i]})
+#     i+=1
+# print(d)
