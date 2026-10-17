@@ -11,7 +11,7 @@ NUMBER----->A=['SINA',2.2,3.4,4J+9,5.6,70,'HELLO']'''
 #             print(a[i])
 #     i+=1
 
-
+hhjjkk
 
 '''2-->WAP TO CONVERT ALL THE LOWER CASE CHAR TO UPPER CASE CHAR IN A STRING---->I/P='mAnoJ',O/P='MANOJ'''
 
