@@ -7,7 +7,7 @@
 # while i<5:
 #     print('Paisa')
 #     i+=1#Value Error if updation is commented
-"""hhh"""
+
 '''Wap to print value from 1 to 10'''
 # i=1
 # while i<=10:
