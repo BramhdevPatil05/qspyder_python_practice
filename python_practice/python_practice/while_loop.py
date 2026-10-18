@@ -67,7 +67,7 @@ hhjjkk
 I/P='HELLO HAI HARISH'
 O/P='HELLO_HAI_HARISH'''
 
-# ********doubt************
+
 
 # a='HELLO HAI HARISH'
 
@@ -102,7 +102,6 @@ IF 'A' IS APECIFIED CHAR-->O/P=4'''
 I/P=12
 O/P=[1,2,3,4,6,12]'''
 
-# *****doubt*******
 # a=12
 
 # i=0
