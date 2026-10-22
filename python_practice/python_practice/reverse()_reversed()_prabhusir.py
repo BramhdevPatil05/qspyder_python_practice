@@ -156,7 +156,13 @@ a='pyhton'
  
 # print(y[::-1])# [50, 40, 30, 20, 10]
 
+''' way 2'''
+# y=[10,20,30,40,50]
+# for i in reversed(y):
+#     print(i,end='')
+
 ''' way 3'''
-y=[10,20,30,40,50]
-for i in reversed(y):
-    print(i,end='')
+
+
+'''way 4'''
+
