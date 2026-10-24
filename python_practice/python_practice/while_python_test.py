@@ -16,7 +16,7 @@ of the output, else print the last value of the output list and add 10 to it.'''
 # else:
 #     print(b[count - 1] + 10)
 
-
+######%#
 '''Q79. Write a program to count how many positions have the same value.
 input1 = '11001010'
 input2 = '01110010'
