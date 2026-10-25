@@ -397,47 +397,250 @@
 
 '''31. Check whether a number is positive; if it is, check whether it is even or odd.'''
 
-a=int(input('Enter an number:'))
+# a=int(input('Enter an number:'))
+
+# if a>0:
+#     if a%2==0:
+#         print(' it is an positive number and even')
+
+#     else:
+#         print('it is psotive and odd number')
+# else:
+#     print('it is an negative number')
 
 '''32. Check whether a person is eligible to vote; if eligible, check whether they qualify for a senior citizen benefit (age 60 or above).'''
 
+# a=int(input('Enter an age:'))
+
+# if a>=18:
+#     if a>=60:
+#         print('they qualify for senior citizen benifits')
+
+#     else:
+#         print('they are not an senior citizen')
+
+# else:
+#     print('not eligible to vote')
+
 '''33. Verify a username first; if correct, check the password.'''
+
+
+# a=input('Enter your username')
+# b=input('Enter your password')
+
+
+
+# if a=='bramhdev@123':
+#     if b=='gayatrichanavra':
+#         print('login succefull')
+
+#     else:
+#         print('wrong password')
+
+# else:
+#     print('wrong user name')
 
 '''34. Check whether a student passed; if passed, determine whether they earned a distinction (75% or above).'''
 
+# a=int(input('Enter your marks: '))
+
+# if a>=35:
+#     if a>=75:
+#         print('Passed with an distiction')
+
+#     else:
+#         print('passed')
+
+# else:
+#     print('failed')
+
+
+
 '''35. Check whether three sides can form a triangle; if they can, determine whether it is equilateral, isosceles, or scalene.'''
+
+''' important question '''
+
+# a = int(input('Enter first side: '))
+# b = int(input('Enter second side: '))
+# c = int(input('Enter third side: '))
+
+# if a + b > c:
+#     if a + c > b:
+#         if b + c > a:
+#             if a == b:
+#                 if b == c:
+#                     print('Equilateral triangle')
+#                 else:
+#                     print('Isosceles triangle')
+#             else:
+#                 if a == c or b == c:
+#                     print('Isosceles triangle')
+#                 else:
+#                     print('Scalene triangle')
+#         else:
+#             print('Cannot form a triangle')
+#     else:
+#         print('Cannot form a triangle')
+# else:
+#     print('Cannot form a triangle')
 
 '''36. Check whether a number is within the range 1–100; if it is, check whether it is divisible by both 2 and 5.'''
 
+
+# a=int(input('Enter an numeber'))
+
+# if a>=1 and a<=100:
+#     if a%2 and a%5:
+#         print('it is divisible by 2 and 5')
+
+#     else:
+#         print('it is not divisible by 2 and 5')
+
+# else:
+#     print('it is not in range of 1 to 100')
+
+
+
 '''37. Check whether a year is a leap year; if it is, check whether it is divisible by 400.'''
+
+# a=int(input('Enter the year: '))
+
+# if a % 400 == 0 or (a % 4 == 0 and a % 100 != 0):
+#     if a % 400 == 0:
+#         print('it is a leap year and divisible by 400')
+
+#     else:
+#         print('It is leap year but not divisible by 400')
+
+# else:
+#     print('It is not an leap year')
+
+
 
 '''38. Create an ATM program: first check whether the PIN is correct, then check whether the withdrawal amount is within the available balance.'''
 
+# pin=int(input('Enter your pin'))
+# witbdrawal_amount=int(input('Enter your withdrawal amount'))
+# available_balance=10000
+
+# if pin==1234:
+#     if witbdrawal_amount <= available_balance :
+#         print('transaction succefull')
+
+#     else:
+#         print('transaction failed insufficient balance')
+
+
+# else:
+#     print('Incorrect pin')
+
+
+
 '''39. Check whether a person is eligible for a loan based on age; if eligible, check whether their salary is at least ₹30,000.'''
+
+# a=int(input('Enter your age'))
+# b=int(input('Enter your salary'))
+
+
+# if a>=21:
+#     if a>=30000:
+#         print('your eligible for loan')
+
+#     else:
+#         print('salary is not sufficeint for loan approval')
+
+# else:
+
+#     print('not eligibl eto get loan')
+
 
 '''40. Check whether a number is a three-digit number; if it is, determine whether its first and last digits are equal.'''
 
 
+# a=int(input('Enter an number:'))
+
+# if len(str(a))==3:
+#     if str(a)[0] == str(a)[-1]:
+#         print('it is an 3 digit number and its first and last digit is eqaul')
+
+#     else:
+#         print('It is a 3 digit number but its first and last digit is not equal to each other')
+
+# else:
+#     print('it is not an 3 digit number')
+
+'''for loop questions'''
+
 '''41. Print all numbers from 1 to 100 using a for loop.'''
+
+# for i in range(1,100+1):
+#     print(i,end='')
 
 '''42. Print all even numbers between 1 and 100 using a for loop.'''
 
+# for i in range(1,100+1):
+#     if i%2==0:
+#         print(i,end=' ')
+
 '''43. Calculate the sum of all numbers from 1 to n using a for loop.'''
+
+# n=int(input('Enter an number:'))
+
+# total = 0
+
+# for i in range(1, n + 1):
+#     total =total+i
+
+# print(total)
 
 '''44. Print the multiplication table of a given number using a for loop.'''
 
+
+# n=int(input('Enter an number:'))
+
+# for i in range(1, n + 1):
+#     if i*n:
+#         print(i)
+
+
 '''45. Count the vowels in a string using a for loop.'''
+
+
+# a=input('Enter an string:')
+
+# for i in a:
+#     if i in 'aeiouAEIOU':
+
+#       print(i)
 
 '''46. Find the factorial of a number using a for loop.'''
 
+
+
+
+
+
 '''47. Find the largest number in a list without using max().'''
+
+
+
+
+
 
 '''48. Print all prime numbers between 1 and 100 using a for loop.'''
 
+
+
+
 '''49. Reverse a string using a for loop without using slicing.'''
+
+
+
+
 
 '''50. Given a list of integers, create a new list containing only numbers that are palindromes when written as digits, such as 121, 44, and 1331.'''
 
+'''while loop'''
 
 '''51. Print numbers from 1 to 50 using a while loop.'''
 
